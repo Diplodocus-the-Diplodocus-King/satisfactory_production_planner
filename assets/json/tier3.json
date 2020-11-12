@@ -1,0 +1,266 @@
+[
+    {
+        "part": "heavy modular frame",
+        "recipes":[
+            {
+                "part": "heavy modular frame",
+                "input1": "modular frame",
+                "rate1": 10,
+                "input2": "steel pipe",
+                "rate2": 15,
+                "input3": "encased industrial beam",
+                "rate3": 10,
+                "input4": "screw",
+                "rate4": 200,
+                "output": 2,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "heavy flexible frame",
+                "input1": "modular frame",
+                "rate1": 18.75,
+                "input2": "rubber",
+                "rate2": 75,
+                "input3": "encased industrial beam",
+                "rate3": 11.25,
+                "input4": "screw",
+                "rate4": 390,
+                "output": 3.75,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "heavy encased frame",
+                "input1": "modular frame",
+                "rate1": 7.5,
+                "input2": "steel pipe",
+                "rate2": 33.75,
+                "input3": "encased industrial beam",
+                "rate3": 9.375,
+                "input4": "concrete",
+                "rate4": 20.625,
+                "output": 2.8125,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "computer",
+        "recipes":[
+            {
+                "part": "computer",
+                "input1": "circuit board",
+                "rate1": 25,
+                "input2": "cable",
+                "rate2": 22.5,
+                "input3": "plastic",
+                "rate3": 45,
+                "input4": "screw",
+                "rate4": 130,
+                "output": 2.5,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "crystal computer",
+                "input1": "circuit board",
+                "rate1": 8,
+                "input2": "crystal oscillator",
+                "rate2": 2.8125,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 2.8125,
+                "power": 15,
+                "building": "assembler"
+            },
+            {
+                "part": "caterium computer",
+                "input1": "circuit board",
+                "rate1": 26.25,
+                "input2": "quickwire",
+                "rate2": 105,
+                "input3": "rubber",
+                "rate3": 45,
+                "input4": null,
+                "rate4": null,
+                "output": 3.75,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "crystal oscillator",
+        "recipes":[
+            {
+                "part": "crystal oscillator",
+                "input1": "quartz crystal",
+                "rate1": 18,
+                "input2": "cable",
+                "rate2": 14,
+                "input3": "reinforced iron plate",
+                "rate3": 2.5,
+                "input4": null,
+                "rate4": null,
+                "output": 1,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "insulated crystal oscillator",
+                "input1": "quartz crystal",
+                "rate1": 18.75,
+                "input2": "rubber",
+                "rate2": 13.125,
+                "input3": "ai limiter",
+                "rate3": 1.875,
+                "input4": null,
+                "rate4": null,
+                "output": 1.875,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "high speed connector",
+        "recipes":[
+            {
+                "part": "high speed connector",
+                "input1": "quickwire",
+                "rate1": 210,
+                "input2": "cable",
+                "rate2": 37.5,
+                "input3": "circuit board",
+                "rate3": 3.75,
+                "input4": null,
+                "rate4": null,
+                "output": 3.75,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "silicone high speed connector",
+                "input1": "quickwire",
+                "rate1": 90,
+                "input2": "silica",
+                "rate2": 37.5,
+                "input3": "circuit board",
+                "rate3": 3,
+                "input4": null,
+                "rate4": null,
+                "output": 3,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "turbo motor",
+        "recipes":[
+            {
+                "part": "turbo motor",
+                "input1": "heat sink",
+                "rate1": 7.5,
+                "input2": "motor",
+                "rate2": 7.5,
+                "input3": "rubber",
+                "rate3": 4.6875,
+                "input4": "radio control unit",
+                "rate4": 3.75,
+                "output": 1.875,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "turbo rigour motor",
+                "input1": "stator",
+                "rate1": 6.5625,
+                "input2": "motor",
+                "rate2": 6.5625,
+                "input3": "ai limiter",
+                "rate3": 8.4375,
+                "input4": "radio control unit",
+                "rate4": 4.6875,
+                "output": 2.8125,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "radio control unit",
+        "recipes":[
+            {
+                "part": "radio control unit",
+                "input1": "heat sink",
+                "rate1": 10,
+                "input2": "rubber",
+                "rate2": 40,
+                "input3": "crystal oscillator",
+                "rate3": 2.5,
+                "input4": "computer",
+                "rate4": 2.5,
+                "output": 2.5,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "radio control system",
+                "input1": "heat sink",
+                "rate1": 12.5,
+                "input2": "super computer",
+                "rate2": 1.25,
+                "input3": "quartz crystal",
+                "rate3": 37.5,
+                "input4": null,
+                "rate4": null,
+                "output": 3.75,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "super computer",
+        "recipes":[
+            {
+                "part": "super computer",
+                "input1": "computer",
+                "rate1": 3.75,
+                "input2": "high speed connector",
+                "rate2": 5.625,
+                "input3": "ai limiter",
+                "rate3": 3.75,
+                "input4": "plastic",
+                "rate4": 52.5,
+                "output": 1.875,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "battery",
+        "recipes":[
+            {
+                "part": "battery",
+                "input1": "alclad aluminium sheet",
+                "rate1": 15,
+                "input2": "copper wire",
+                "rate2": 30,
+                "input3": "sulphur",
+                "rate3": 37.5,
+                "input4": "plastic",
+                "rate4": 15,
+                "output": 5.625,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    }
+]

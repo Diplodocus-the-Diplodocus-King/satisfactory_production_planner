@@ -1,0 +1,720 @@
+[
+    {
+        "part": "iron ore",
+        "recipes": [
+            {
+                "part": "miner mk1 (impure)", 
+                "output": 30,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (normal)", 
+                "output": 60,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (pure)", 
+                "output": 120,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk2 (impure)", 
+                "output": 60,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (normal)", 
+                "output": 120,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (pure)", 
+                "output": 240,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk3 (impure)", 
+                "output": 120,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (normal)", 
+                "output": 240,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (pure)", 
+                "output": 480,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            }
+        ]
+    },
+    {
+        "part": "copper ore",
+        "recipes": [
+            {
+                "part": "miner mk1 (impure)", 
+                "output": 30,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (normal)", 
+                "output": 60,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (pure)", 
+                "output": 120,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk2 (impure)", 
+                "output": 60,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (normal)", 
+                "output": 120,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (pure)", 
+                "output": 240,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk3 (impure)", 
+                "output": 120,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (normal)", 
+                "output": 240,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (pure)", 
+                "output": 480,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            }
+        ]
+    },
+    {
+        "part": "limestone",
+        "recipes": [
+            {
+                "part": "miner mk1 (impure)", 
+                "output": 30,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (normal)", 
+                "output": 60,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (pure)", 
+                "output": 120,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk2 (impure)", 
+                "output": 60,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (normal)", 
+                "output": 120,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (pure)", 
+                "output": 240,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk3 (impure)", 
+                "output": 120,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (normal)", 
+                "output": 240,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (pure)", 
+                "output": 480,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            }
+        ]
+    },
+    {
+        "part": "coal",
+        "recipes": [
+            {
+                "part": "miner mk1 (impure)", 
+                "output": 30,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (normal)", 
+                "output": 60,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (pure)", 
+                "output": 120,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk2 (impure)", 
+                "output": 60,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (normal)", 
+                "output": 120,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (pure)", 
+                "output": 240,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk3 (impure)", 
+                "output": 120,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (normal)", 
+                "output": 240,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (pure)", 
+                "output": 480,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            }
+        ]
+    },
+    {
+        "part": "caterium ore",
+        "recipes": [
+            {
+                "part": "miner mk1 (impure)", 
+                "output": 30,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (normal)", 
+                "output": 60,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (pure)", 
+                "output": 120,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk2 (impure)", 
+                "output": 60,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (normal)", 
+                "output": 120,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (pure)", 
+                "output": 240,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk3 (impure)", 
+                "output": 120,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (normal)", 
+                "output": 240,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (pure)", 
+                "output": 480,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            }
+        ]
+    },
+    {
+        "part": "sulphur",
+        "recipes": [
+            {
+                "part": "miner mk1 (impure)", 
+                "output": 30,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (normal)", 
+                "output": 60,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (pure)", 
+                "output": 120,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk2 (impure)", 
+                "output": 60,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (normal)", 
+                "output": 120,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (pure)", 
+                "output": 240,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk3 (impure)", 
+                "output": 120,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (normal)", 
+                "output": 240,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (pure)", 
+                "output": 480,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            }
+        ]
+    },
+    {
+        "part": "raw quartz",
+        "recipes": [
+            {
+                "part": "miner mk1 (impure)", 
+                "output": 30,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (normal)", 
+                "output": 60,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (pure)", 
+                "output": 120,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk2 (impure)", 
+                "output": 60,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (normal)", 
+                "output": 120,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (pure)", 
+                "output": 240,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk3 (impure)", 
+                "output": 120,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (normal)", 
+                "output": 240,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (pure)", 
+                "output": 480,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            }
+        ]
+    },
+    {
+        "part": "bauxite",
+        "recipes": [
+            {
+                "part": "miner mk1 (impure)", 
+                "output": 30,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (normal)", 
+                "output": 60,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (pure)", 
+                "output": 120,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk2 (impure)", 
+                "output": 60,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (normal)", 
+                "output": 120,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (pure)", 
+                "output": 240,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk3 (impure)", 
+                "output": 120,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (normal)", 
+                "output": 240,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (pure)", 
+                "output": 480,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            }
+        ]
+    },
+    {
+        "part": "uranium",
+        "recipes": [
+            {
+                "part": "miner mk1 (impure)", 
+                "output": 30,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (normal)", 
+                "output": 60,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (pure)", 
+                "output": 120,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk2 (impure)", 
+                "output": 60,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (normal)", 
+                "output": 120,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (pure)", 
+                "output": 240,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk3 (impure)", 
+                "output": 120,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (normal)", 
+                "output": 240,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (pure)", 
+                "output": 480,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            }
+        ]
+    },
+    {
+        "part": "SAM ore",
+        "recipes": [
+            {
+                "part": "miner mk1 (impure)", 
+                "output": 30,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (normal)", 
+                "output": 60,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk1 (pure)", 
+                "output": 120,
+                "power": 5,
+                "building": "miner mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "miner mk2 (impure)", 
+                "output": 60,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (normal)", 
+                "output": 120,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk2 (pure)", 
+                "output": 240,
+                "power": 12,
+                "building":"miner mk2",
+                "overclock": [23, 36.4, 52]
+            },
+            {
+                "part": "miner mk3 (impure)", 
+                "output": 120,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (normal)", 
+                "output": 240,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            },
+            {
+                "part": "miner mk3 (pure)", 
+                "output": 480,
+                "power": 30,
+                "building": "miner mk3",
+                "overclock": [57.4, 90.9, 130]
+            }
+        ]
+    },
+    {
+        "part": "crude oil",
+        "recipes":[
+            {
+                "part": "oil extractor (impure)", 
+                "output": 60,
+                "power": 40,
+                "building": "oil extractor",
+                "overclock": [76.5, 121.3, 173.3]
+            },
+            {
+                "part": "oil extractor (normal)", 
+                "output": 120,
+                "power": 40,
+                "building": "oil extractor",
+                "overclock": [76.5, 121.3, 173.3]
+            },
+            {
+                "part": "oil extractor (pure)", 
+                "output": 240,
+                "power": 40,
+                "building": "oil extractor",
+                "overclock": [76.5, 121.3, 173.3]
+            }
+        ]
+    },
+    {
+        "part": "water",
+        "recipes":[
+            {
+                "part": "water extractor", 
+                "output": 120,
+                "power": 20,
+                "building": "water extractor",
+                "overclock": [38.3, 60.6, 86.6]
+            }
+        ]
+    }
+]

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap');
+
+body{
+    background-color: #333;
+    color: ivory;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    max-width: 100vw;
+    width: 1625px;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+h1{
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+h5{
+    display: inline;
+    position: relative;
+    font-size: 18px;
+    padding: 0px 15px;
+    text-transform: capitalize;
+}
+
+
+
+.row{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.resource-container{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.resource-title{
+    position: relative;
+    display: inline-block;
+    top: -50px;
+}
+
+.resource-title h5{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 125px;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 0px 15px 0 15px;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+.resource-title img{
+    display: block;
+    position: relative;
+    left: 35%;
+    height: 50px;
+    width: 50px;
+}
+
+.resource-container:hover{
+    background-color: #222;
+    border-radius: 15px;
+}
+
+.info-container{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    left: 1300px;
+    padding: 5px;
+}
+
+.info-container h6{
+    margin: 5px;
+}
+
+.info-container p{
+    display: inline;
+    margin: 5px 13px;
+    padding: 5px;
+}
+
+.bar-value{
+    position: relative;
+    display: inline-block;
+    width: 30px !important;
+    top: -5px;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 10px;
+}
+
+.progress-bar{
+    margin: 5px;
+    border: 2px solid darkgray;
+    border-radius: 7px;
+    height: 20px;
+}
+
+.negative-bar{
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    height: 20px;
+    width: 100px;
+}
+
+.negative-value{
+    background-color: red;
+    border-radius: 5px;
+    height: 20px;
+    float: right;
+    width: 0px;
+}
+
+.positive-bar{
+    position: relative;
+    display: inline-block;
+    border-radius: 5px;
+    height: 20px;
+    width: 100px;
+}
+
+.positive-value{
+    background-color: green;
+    border-radius: 5px;
+    height: 20px;
+    width: 0px;
+}
+

@@ -1,0 +1,139 @@
+[
+    {
+        "part": "smart plating",
+        "recipes":[
+            {
+                "part": "smart plating",
+                "input1": "reinforced iron plate",
+                "rate1": 2,
+                "input2": "rotor",
+                "rate2": 2,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 2,
+                "power": 15,
+                "building": "assembler"
+            },
+            {
+                "part": "plastic smart plating",
+                "input1": "reinforced iron plate",
+                "rate1": 2.5,
+                "input2": "rotor",
+                "rate2": 2.5,
+                "input3": "plastic",
+                "rate3": 7.5,
+                "input4": null,
+                "rate4": null,
+                "output": 5,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "automated wiring",
+        "recipes":[
+            {
+                "part": "automated wiring",
+                "input1": "stator",
+                "rate1": 2.5,
+                "input2": "cable",
+                "rate2": 50,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 2.5,
+                "power": 15,
+                "building": "assembler"
+            },
+            {
+                "part": "high speed wiring",
+                "input1": "stator",
+                "rate1": 3.75,
+                "input2": "copper wire",
+                "rate2": 75,
+                "input3": "high speed connector",
+                "rate3": 1.875,
+                "input4": null,
+                "rate4": null,
+                "output": 7.5,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "versatile framework",
+        "recipes":[
+            {
+                "part": "versatile framework",
+                "input1": "modular frame",
+                "rate1": 2.5,
+                "input2": "steel beam",
+                "rate2": 30,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 5,
+                "power": 15,
+                "building": "assembler"
+            },
+            {
+                "part": "flexible framework",
+                "input1": "modular frame",
+                "rate1": 3.75,
+                "input2": "steel beam",
+                "rate2": 22.5,
+                "input3": "rubber",
+                "rate3": 30,
+                "input4": null,
+                "rate4": null,
+                "output": 7.5,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "modular engine",
+        "recipes":[
+            {
+                "part": "modular engine",
+                "input1": "motor",
+                "rate1": 2,
+                "input2": "rubber",
+                "rate2": 15,
+                "input3": "smart plating",
+                "rate3": 2,
+                "input4": null,
+                "rate4": null,
+                "output": 1,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "adaptive control unit",
+        "recipes":[
+            {
+                "part": "adaptive control unit",
+                "input1": "automated wiring",
+                "rate1": 7.5,
+                "input2": "circuit board",
+                "rate2": 5,
+                "input3": "heavy modular frame",
+                "rate3": 1,
+                "input4": "computer",
+                "rate4": 1,
+                "output": 1,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    }
+]

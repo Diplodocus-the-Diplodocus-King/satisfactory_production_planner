@@ -1,0 +1,52 @@
+.incrementer-container{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 70px;
+    width: 100px;
+    top: 0px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.incrementer-label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.incrementer-value{
+    width: 40px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    margin: 0px 0;
+    color: #333;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.incrementer-value:hover{
+    border: 2px solid #6c35a3;
+}
+
+.incrementer-value:focus{
+    border: 2px solid #6c35a3;
+}
+
+i.plus, i.minus{
+    position: relative;
+    left: 0px;
+    color: lightgrey;
+    display: inline-block;
+    top: 5px;
+}
+
+i.plus:hover, i.minus:hover{
+    color: #6c35a3;
+}
+

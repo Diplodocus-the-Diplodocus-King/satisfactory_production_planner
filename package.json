@@ -1,0 +1,23 @@
+{
+  "name": "webpack_boiler_plate",
+  "version": "1.0.0",
+  "description": "boiler plate for web development (2020)",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --mode production",
+    "test": "webpack-dev-server --mode development"
+  },
+  "author": "Diplodocus",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

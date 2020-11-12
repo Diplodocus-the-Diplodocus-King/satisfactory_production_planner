@@ -1,0 +1,22 @@
+[
+    {
+        "building": "biomass burner",
+        "output": 30
+    },
+    {
+        "building": "coal generator",
+        "output": 75
+    },
+    {
+        "building": "fuel generator",
+        "output": 150
+    },
+    {
+        "building": "geo-thermal generator",
+        "output": 200
+    },
+    {
+        "building": "nuclear power plant",
+        "output": 2500
+    }
+]
