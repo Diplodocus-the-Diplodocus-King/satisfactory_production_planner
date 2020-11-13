@@ -7,7 +7,7 @@ class View {
         data.forEach(item => {
 
             const containerID = item.part.replace(/\s/g, '_');
-            const imgPath = `./assets/images/${containerID}.png`;
+            const imgPath = `./images/${containerID}.png`;
 
             let html = `
                 <div class="resource-container" id="${containerID}">
