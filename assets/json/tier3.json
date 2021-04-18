@@ -249,15 +249,29 @@
         "recipes":[
             {
                 "part": "battery",
+                "input1": "aluminum casing",
+                "rate1": 20,
+                "input2": "alumina solution",
+                "rate2": 40,
+                "input3": "sulphuric acid",
+                "rate3": 50,
+                "output": 20,
+                "byProduct": "water",
+                "output2": 30,
+                "power": 75,
+                "building": "blender"
+            },
+            {
+                "part": "classic battery",
                 "input1": "alclad aluminium sheet",
-                "rate1": 15,
+                "rate1": 52.5,
                 "input2": "copper wire",
-                "rate2": 30,
+                "rate2": 90,
                 "input3": "sulphur",
-                "rate3": 37.5,
+                "rate3": 45,
                 "input4": "plastic",
-                "rate4": 15,
-                "output": 5.625,
+                "rate4": 60,
+                "output": 30,
                 "power": 55,
                 "building": "manufacturer"
             }

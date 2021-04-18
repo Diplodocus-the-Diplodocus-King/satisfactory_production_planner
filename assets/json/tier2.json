@@ -540,20 +540,20 @@
             {
                 "part": "aluminium ingot",
                 "input1": "aluminium scrap",
-                "rate1": 240,
+                "rate1": 90,
                 "input2": "silica",
-                "rate2": 140,
-                "output": 80,
+                "rate2": 75,
+                "output": 60,
                 "power": 16,
                 "building": "foundry"
             },
             {
                 "part": "pure aluminium ingot",
                 "input1": "aluminium scrap",
-                "rate1": 144,
+                "rate1": 60,
                 "input2": null,
                 "rate2": null,
-                "output": 36,
+                "output": 30,
                 "power": 4,
                 "building": "smelter"
             }
@@ -565,12 +565,52 @@
             {
                 "part": "alclad aluminium sheet",
                 "input1": "aluminium ingot",
-                "rate1": 60,
+                "rate1": 30,
                 "input2": "copper ingot",
-                "rate2": 22.5,
+                "rate2": 10,
                 "output": 30,
                 "power": 15,
                 "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "aluminium casing",
+        "recipes":[
+            {
+                "part": "aluminium casing",
+                "input1": "aluminium ingot",
+                "rate1": 90,
+                "input2": null,
+                "rate2": null,
+                "output": 60,
+                "power": 4,
+                "building": "constructor"
+            },
+            {
+                "part": "alternate aluminium casing",
+                "input1": "aluminium ingot",
+                "rate1": 150,
+                "input2": "copper ingot",
+                "rate2": 75,
+                "output": 112.5,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "empty fluid tank",
+        "recipes":[
+            {
+                "part": "empty fluid tank",
+                "input1": "aluminium ingot",
+                "rate1": 60,
+                "input2": null,
+                "rate2": null,
+                "output": 60,
+                "power": 4,
+                "building": "constructor"
             }
         ]
     },

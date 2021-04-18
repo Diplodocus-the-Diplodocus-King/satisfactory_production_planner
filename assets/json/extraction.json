@@ -680,6 +680,32 @@
         ]
     },
     {
+        "part": "nitrogen gas",
+        "recipes": [
+            {
+                "part": "extractor mk1 (impure)", 
+                "output": 30,
+                "power": 0,
+                "building": "extractor mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "extractor mk1 (normal)", 
+                "output": 60,
+                "power": 0,
+                "building": "extractor mk1",
+                "overclock": [0, 0, 0]
+            },
+            {
+                "part": "extractor mk1 (pure)", 
+                "output": 120,
+                "power": 0,
+                "building": "extractor mk1",
+                "overclock": [0, 0, 0]
+            }
+        ]
+    },
+    {
         "part": "crude oil",
         "recipes":[
             {
@@ -702,6 +728,27 @@
                 "power": 40,
                 "building": "oil extractor",
                 "overclock": [76.5, 121.3, 173.3]
+            },
+            {
+                "part": "extractor mk1 (impure)", 
+                "output": 30,
+                "power": 0,
+                "building": "extractor mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "extractor mk1 (normal)", 
+                "output": 60,
+                "power": 0,
+                "building": "extractor mk1",
+                "overclock": [0, 0, 0]
+            },
+            {
+                "part": "extractor mk1 (pure)", 
+                "output": 120,
+                "power": 0,
+                "building": "extractor mk1",
+                "overclock": [0, 0, 0]
             }
         ]
     },
@@ -714,6 +761,27 @@
                 "power": 20,
                 "building": "water extractor",
                 "overclock": [38.3, 60.6, 86.6]
+            },
+            {
+                "part": "extractor mk1 (impure)", 
+                "output": 30,
+                "power": 0,
+                "building": "extractor mk1",
+                "overclock": [9.6, 15.2, 21.7]
+            },
+            {
+                "part": "extractor mk1 (normal)", 
+                "output": 60,
+                "power": 0,
+                "building": "extractor mk1",
+                "overclock": [0, 0, 0]
+            },
+            {
+                "part": "extractor mk1 (pure)", 
+                "output": 120,
+                "power": 0,
+                "building": "extractor mk1",
+                "overclock": [0, 0, 0]
             }
         ]
     }
