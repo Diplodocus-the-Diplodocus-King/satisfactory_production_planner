@@ -335,6 +335,81 @@
                 "output2": 105,
                 "power": 30,
                 "building": "refinery"
+            },
+            {
+                "part": "instant scrap",
+                "input1": "bauxite",
+                "rate1": 150,
+                "input2": "coal",
+                "rate2": 100,
+                "input3": "sulphuric acid",
+                "rate3": 50,
+                "input4": "water",
+                "rate4": 60,
+                "output": 300,
+                "byProduct": "water",
+                "output2": 50,
+                "power": 75,
+                "building": "blender"
+            }
+        ]
+    },
+    {
+        "part": "copper powder",
+        "recipes":[
+            {
+                "part": "copper powder",
+                "input1": "copper ingot",
+                "rate1": 300,
+                "input2": null,
+                "rate2": null,
+                "output": 50,
+                "power": 4,
+                "building": "constructor"
+            }
+        ]
+    },
+    {
+        "part": "nitric acid",
+        "recipes":[
+            {
+                "part": "nitric acid",
+                "input1": "nitrogen gas",
+                "rate1": 120,
+                "input2": "water",
+                "rate2": 30,
+                "input3": "iron plate",
+                "rate3": 10,
+                "output": 30,
+                "power": 75,
+                "building": "blender"
+            },
+            {
+                "part": "unpackaged nitric acid",
+                "input1": "packaged nitric acid",
+                "rate1": 20,
+                "input2": null,
+                "rate2": null,
+                "output": 20,
+                "byProduct": "empty fluid tank",
+                "output2": 20,
+                "power": 10,
+                "building": "packager"
+            }
+        ]
+    },
+    {
+        "part": "packaged nitric acid",
+        "recipes":[
+            {
+                "part": "packaged nitric acid",
+                "input1": "nitric acid",
+                "rate1": 30,
+                "input2": "empty fluid tank",
+                "rate2": 30,
+                "output": 30,
+                "power": 10,
+                "building": "packager"
             }
         ]
     }

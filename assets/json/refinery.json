@@ -238,9 +238,23 @@
                 "rate1": 120,
                 "input2": "water",
                 "rate2": 180,
-                "output": 240,
+                "output": 120,
+                "byProduct": "silica",
+                "output2": 50,
                 "power": 30,
                 "building": "refinery"
+            },
+            {
+                "part": "unpackaged alumina solution",
+                "input1": "packaged alumina solution",
+                "rate1": 120,
+                "input2": null,
+                "rate2": null,
+                "output": 120,
+                "byProduct": "empty canister",
+                "output2": 120,
+                "power": 30,
+                "building": "packager"
             },
             {
                 "part": "sloppy alumina",
@@ -249,26 +263,23 @@
                 "input2": "water",
                 "rate2": 200,
                 "output": 240,
-                "byProduct": "silica",
-                "output2": 50,
                 "power": 30,
                 "building": "refinery"
-            },
+            }
+        ]
+    },
+    {
+        "part": "packaged alumina solution",
+        "recipes":[
             {
-                "part": "instant scrap",
-                "input1": "bauxite",
-                "rate1": 150,
-                "input2": "coal",
-                "rate2": 100,
-                "input3": "sulphuric acid",
-                "rate3": 50,
-                "input4": "water",
-                "rate4": 60,
-                "output": 300,
-                "byProduct": "water",
-                "output2": 50,
-                "power": 75,
-                "building": "blender"
+                "part": "packaged alumina solution",
+                "input1": "alumina solution",
+                "rate1": 120,
+                "input2": "empty canister",
+                "rate2": 120,
+                "output": 120,
+                "power": 10,
+                "building": "packager"
             }
         ]
     },
@@ -284,7 +295,49 @@
                 "output": 100,
                 "power": 30,
                 "building": "refinery"
+            },
+            {
+                "part": "unpackaged sulphuric acid",
+                "input1": "packaged sulphuric acid",
+                "rate1": 60,
+                "input2": null,
+                "rate2": null,
+                "output": 60,
+                "byProduct": "empty canister",
+                "output2": 60,
+                "power": 10,
+                "building": "packager"
             }
         ]
-    } 
+    }, 
+    {
+        "part": "packaged sulphuric acid",
+        "recipes":[
+            {
+                "part": "packaged sulphuric acid",
+                "input1": "sulphuric acid",
+                "rate1": 40,
+                "input2": "empty canister",
+                "rate2": 40,
+                "output": 40,
+                "power": 10,
+                "building": "packager"
+            }
+        ]
+    }, 
+    {
+        "part": "packaged nitrogen gas",
+        "recipes":[
+            {
+                "part": "packaged nitrogen gas",
+                "input1": "nitrogen gas",
+                "rate1": 240,
+                "input2": "empty fluid tank",
+                "rate2": 60,
+                "output": 60,
+                "power": 10,
+                "building": "packager"
+            }
+        ]
+    }
 ]

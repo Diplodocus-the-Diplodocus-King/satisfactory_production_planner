@@ -190,6 +190,16 @@
                 "output": 7.5,
                 "power": 55,
                 "building": "manufacturer"
+            },
+            {
+                "part": "electric motor",
+                "input1": "rotor",
+                "rate1": 7.5,
+                "input2": "electromagnetic control rod",
+                "rate2": 3.75,
+                "output": 7.5,
+                "power": 15,
+                "building": "assembler"
             }
         ]
     },
@@ -348,6 +358,16 @@
                 "output2": 60,
                 "power": 30,
                 "building": "refinery"
+            },
+            {
+                "part": "diluted fuel",
+                "input1": "heavy oil residue",
+                "rate1": 50,
+                "input2": "water",
+                "rate2": 100,
+                "output": 100,
+                "power": 75,
+                "building": "blender"
             }
         ]
     },
@@ -424,6 +444,26 @@
                 "output": 60,
                 "power": 4,
                 "building": "constructor"
+            },
+            {
+                "part": "steel canister",
+                "input1": "steel ingot",
+                "rate1": 60,
+                "input2": null,
+                "rate2": null,
+                "output": 40,
+                "power": 4,
+                "building": "constructor"
+            },
+            {
+                "part": "coated iron canister",
+                "input1": "iron plate",
+                "rate1": 30,
+                "input2": "copper sheet",
+                "rate2": 15,
+                "output": 60,
+                "power": 15,
+                "building": "assembler"
             }
         ]
     },
@@ -516,8 +556,37 @@
                 "output2": 20,
                 "power": 30,
                 "building": "refinery"
+            },
+            {
+                "part": "turbo blend fuel",
+                "input1": "fuel",
+                "rate1": 15,
+                "input2": "heavy oil residue",
+                "rate2": 30,
+                "input3": "sulphur",
+                "rate3": 22.5,
+                "input4": "petroleum coke",
+                "rate4": 22.5,
+                "output": 45,
+                "power": 75,
+                "building": "blender"
             }
        ]
+    },
+    {
+        "part": "packaged turbo fuel",
+        "recipes":[
+            {
+                "part": "packaged turbo fuel",
+                "input1": "turbo fuel",
+                "rate1": 20,
+                "input2": "empty canister",
+                "rate2": 20,
+                "output": 20,
+                "power": 10,
+                "building": "packager"
+            }
+        ]
     },
     {
         "part": "ai limiter",
@@ -620,9 +689,19 @@
             {
                 "part": "heat sink",
                 "input1": "alclad aluminium sheet",
-                "rate1": 40,
+                "rate1": 37.5,
+                "input2": "copper sheet",
+                "rate2": 22.5,
+                "output": 7.5,
+                "power": 15,
+                "building": "assembler"
+            },
+            {
+                "part": "heat exchanger",
+                "input1": "aluminium casing",
+                "rate1": 30,
                 "input2": "rubber",
-                "rate2": 70,
+                "rate2": 30,
                 "output": 10,
                 "power": 15,
                 "building": "assembler"

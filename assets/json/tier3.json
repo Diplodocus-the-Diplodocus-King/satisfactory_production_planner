@@ -7,7 +7,7 @@
                 "input1": "modular frame",
                 "rate1": 10,
                 "input2": "steel pipe",
-                "rate2": 15,
+                "rate2": 30,
                 "input3": "encased industrial beam",
                 "rate3": 10,
                 "input4": "screw",
@@ -66,7 +66,7 @@
             {
                 "part": "crystal computer",
                 "input1": "circuit board",
-                "rate1": 8,
+                "rate1": 7.5,
                 "input2": "crystal oscillator",
                 "rate2": 2.8125,
                 "input3": null,
@@ -164,12 +164,12 @@
         "recipes":[
             {
                 "part": "turbo motor",
-                "input1": "heat sink",
+                "input1": "cooling system",
                 "rate1": 7.5,
                 "input2": "motor",
                 "rate2": 7.5,
                 "input3": "rubber",
-                "rate3": 4.6875,
+                "rate3": 45,
                 "input4": "radio control unit",
                 "rate4": 3.75,
                 "output": 1.875,
@@ -177,16 +177,30 @@
                 "building": "manufacturer"
             },
             {
-                "part": "turbo rigour motor",
-                "input1": "stator",
+                "part": "turbo electric motor",
+                "input1": "rotor",
                 "rate1": 6.5625,
                 "input2": "motor",
                 "rate2": 6.5625,
-                "input3": "ai limiter",
+                "input3": "radio control unit",
                 "rate3": 8.4375,
-                "input4": "radio control unit",
+                "input4": "electromagnetic control rod",
                 "rate4": 4.6875,
                 "output": 2.8125,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "turbo pressure motor",
+                "input1": "stator",
+                "rate1": 15,
+                "input2": "motor",
+                "rate2": 7.5,
+                "input3": "pressure conversion cube",
+                "rate3": 1.875,
+                "input4": "packaged nitrogen gas",
+                "rate4": 45,
+                "output": 3.75,
                 "power": 55,
                 "building": "manufacturer"
             }
@@ -197,26 +211,40 @@
         "recipes":[
             {
                 "part": "radio control unit",
-                "input1": "heat sink",
-                "rate1": 10,
-                "input2": "rubber",
-                "rate2": 40,
+                "input1": "aluminium casing",
+                "rate1": 40,
+                "input2": "computer",
+                "rate2": 1.25,
                 "input3": "crystal oscillator",
-                "rate3": 2.5,
-                "input4": "computer",
-                "rate4": 2.5,
+                "rate3": 1.25,
+                "input4": null,
+                "rate4": null,
                 "output": 2.5,
                 "power": 55,
                 "building": "manufacturer"
             },
             {
                 "part": "radio control system",
+                "input1": "aluminium casing",
+                "rate1": 90,
+                "input2": "circuit board",
+                "rate2": 15,
+                "input3": "crystal oscillator",
+                "rate3": 1.5,
+                "input4": "rubber",
+                "rate4": 45,
+                "output": 4.5,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "radio connection unit",
                 "input1": "heat sink",
-                "rate1": 12.5,
-                "input2": "super computer",
-                "rate2": 1.25,
+                "rate1": 15,
+                "input2": "high speed connector",
+                "rate2": 7.5,
                 "input3": "quartz crystal",
-                "rate3": 37.5,
+                "rate3": 45,
                 "input4": null,
                 "rate4": null,
                 "output": 3.75,
@@ -241,6 +269,34 @@
                 "output": 1.875,
                 "power": 55,
                 "building": "manufacturer"
+            },
+            {
+                "part": "OC super computer",
+                "input1": "radio control unit",
+                "rate1": 9,
+                "input2": "cooling system",
+                "rate2": 9,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 3,
+                "power": 15,
+                "building": "assembler"
+            },
+            {
+                "part": "super state computer",
+                "input1": "computer",
+                "rate1": 3.6,
+                "input2": "electromagnetic control rod",
+                "rate2": 2.4,
+                "input3": "battery",
+                "rate3": 24,
+                "input4": "copper wire",
+                "rate4": 54,
+                "output": 2.4,
+                "power": 55,
+                "building": "manufacturer"
             }
         ]
     },
@@ -249,7 +305,7 @@
         "recipes":[
             {
                 "part": "battery",
-                "input1": "aluminum casing",
+                "input1": "aluminium casing",
                 "rate1": 20,
                 "input2": "alumina solution",
                 "rate2": 40,
@@ -274,6 +330,124 @@
                 "output": 30,
                 "power": 55,
                 "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "cooling system",
+        "recipes":[
+            {
+                "part": "cooling system",
+                "input1": "heat sink",
+                "rate1": 12,
+                "input2": "rubber",
+                "rate2": 12,
+                "input3": "nitrogen gas",
+                "rate3": 150,
+                "input4": "water",
+                "rate4": 30,
+                "output": 6,
+                "power": 75,
+                "building": "blender"
+            },
+            {
+                "part": "cooling device",
+                "input1": "heat sink",
+                "rate1": 9.375,
+                "input2": "motor",
+                "rate2": 1.875,
+                "input3": "nitrogen gas",
+                "rate3": 45,
+                "input4": null,
+                "rate4": null,
+                "output": 3.75,
+                "power": 75,
+                "building": "blender"
+            }
+        ]
+    },
+    {
+        "part": "electromagnetic control rod",
+        "recipes":[
+            {
+                "part": "electromagnetic control rod",
+                "input1": "stator",
+                "rate1": 6,
+                "input2": "ai limiter",
+                "rate2": 4,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 4,
+                "power": 15,
+                "building": "assembler"
+            },
+            {
+                "part": "electromagnetic connection rod",
+                "input1": "stator",
+                "rate1": 8,
+                "input2": "high speed connector",
+                "rate2": 4,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 8,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "fused modular frame",
+        "recipes":[
+            {
+                "part": "fused modular frame",
+                "input1": "heavy modular frame",
+                "rate1": 1.5,
+                "input2": "aluminium casing",
+                "rate2": 75,
+                "input3": "nitrogen gas",
+                "rate3": 37.5,
+                "input4": null,
+                "rate4": null,
+                "output": 1.5,
+                "power": 75,
+                "building": "blender"
+            },
+            {
+                "part": "heat fused frame",
+                "input1": "heavy modular frame",
+                "rate1": 3,
+                "input2": "aluminium ingot",
+                "rate2": 150,
+                "input3": "nitric acid",
+                "rate3": 24,
+                "input4": "fuel",
+                "rate4": 30,
+                "output": 3,
+                "power": 75,
+                "building": "blender"
+            }
+        ]
+    },
+    {
+        "part": "pressure conversion cube",
+        "recipes":[
+            {
+                "part": "pressure conversion cube",
+                "input1": "fused modular frame",
+                "rate1": 1,
+                "input2": "radio control unit",
+                "rate2": 2,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 1,
+                "power": 15,
+                "building": "assembler"
             }
         ]
     }

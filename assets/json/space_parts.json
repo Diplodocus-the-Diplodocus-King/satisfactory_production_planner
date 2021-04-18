@@ -135,5 +135,81 @@
                 "building": "manufacturer"
             }
         ]
+    },
+    {
+        "part": "assembly director system",
+        "recipes":[
+            {
+                "part": "assembly director system",
+                "input1": "adaptive control unit",
+                "rate1": 1.5,
+                "input2": "super computer",
+                "rate2": 0.75,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 0.75,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "magnetic field generator",
+        "recipes":[
+            {
+                "part": "magnetic field generator",
+                "input1": "versatile framework",
+                "rate1": 2.5,
+                "input2": "electromagnetic control rod",
+                "rate2": 1,
+                "input3": "battery",
+                "rate3": 5,
+                "input4": null,
+                "rate4": null,
+                "output": 1,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "nuclear pasta",
+        "recipes":[
+            {
+                "part": "nuclear pasta",
+                "input1": "copper powder",
+                "rate1": 100,
+                "input2": "pressure conversion cube",
+                "rate2": 0.5,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 0.5,
+                "power": 1500,
+                "building": "particle accelerator"
+            }
+        ]
+    },
+    {
+        "part": "thermal propulsion rocket",
+        "recipes":[
+            {
+                "part": "thermal propulsion rocket",
+                "input1": "modular engine",
+                "rate1": 2.5,
+                "input2": "turbo motor",
+                "rate2": 1,
+                "input3": "cooling system",
+                "rate3": 3,
+                "input4": "fused modular frame",
+                "rate4": 1,
+                "output": 1,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
     }
 ]
