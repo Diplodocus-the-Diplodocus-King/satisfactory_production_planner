@@ -1,0 +1,230 @@
+[
+    {
+        "part": "encased uranium cell",
+        "recipes":[
+            {
+                "part": "encased uranium cell",
+                "input1": "uranium",
+                "rate1": 50,
+                "input2": "concrete",
+                "rate2": 15,
+                "input3": "sulphuric acid",
+                "rate3": 40,
+                "input4": null,
+                "rate4": null,
+                "output": 25,
+                "byProduct": "sulphuric acid",
+                "output2": 10,
+                "power": 75,
+                "building": "blender"
+            },
+            {
+                "part": "infused uranium cell",
+                "input1": "uranium",
+                "rate1": 25,
+                "input2": "silica",
+                "rate2": 15,
+                "input3": "sulphur",
+                "rate3": 25,
+                "input4": "quickwire",
+                "rate4": 75,
+                "output": 25,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "uranium fuel rod",
+        "recipes":[
+            {
+                "part": "uranium fuel rod",
+                "input1": "encased uranium cell",
+                "rate1": 20,
+                "input2": "encased industrial beam",
+                "rate2": 1.2,
+                "input3": "electromagnetic control rod",
+                "rate3": 2,
+                "input4": null,
+                "rate4": null,
+                "output": 0.4,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "uranium fuel unit",
+                "input1": "encased uranium cell",
+                "rate1": 20,
+                "input2": "electromagnetic control rod",
+                "rate2": 2,
+                "input3": "crystal oscillator",
+                "rate3": 0.6,
+                "input4": "beacon",
+                "rate4": 1.2,
+                "output": 0.6,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
+        "part": "uranium waste",
+        "recipes":[
+            {
+                "part": "uranium waste",
+                "input1": null,
+                "rate1": null,
+                "input2": null,
+                "rate2": null,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 0,
+                "power": 0,
+                "building": "nuclear power plant"
+            }
+        ]
+    },
+    {
+        "part": "non fissile uranium",
+        "recipes":[
+            {
+                "part": "non fissile uranium",
+                "input1": "uranium waste",
+                "rate1": 37.5,
+                "input2": "silica",
+                "rate2": 25,
+                "input3": "nitric acid",
+                "rate3": 15,
+                "input4": "sulphuric acid",
+                "rate4": 15,
+                "output": 50,
+                "byProduct": "water",
+                "output2": 15,
+                "power": 75,
+                "building": "blender"
+            },
+            {
+                "part": "fertile uranium",
+                "input1": "uranium waste",
+                "rate1": 25,
+                "input2": "uranium",
+                "rate2": 25,
+                "input3": "nitric acid",
+                "rate3": 15,
+                "input4": "sulphuric acid",
+                "rate4": 25,
+                "output": 100,
+                "byProduct": "water",
+                "output2": 40,
+                "power": 75,
+                "building": "blender"
+            }
+        ]
+    },
+    {
+        "part": "plutonium pellet",
+        "recipes":[
+            {
+                "part": "plutonium pellet",
+                "input1": "non fissile uranium",
+                "rate1": 100,
+                "input2": "uranium waste",
+                "rate2": 25,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 30,
+                "power": 1500,
+                "building": "particle accelerator"
+            }
+        ]
+    },
+    {
+        "part": "encased plutonium cell",
+        "recipes":[
+            {
+                "part": "encased plutonium cell",
+                "input1": "plutonium pellet",
+                "rate1": 10,
+                "input2": "concrete",
+                "rate2": 20,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 5,
+                "power": 15,
+                "building": "assembler"
+            },
+            {
+                "part": "instant plutonium cell",
+                "input1": "non fissile uranium",
+                "rate1": 75,
+                "input2": "aluminium casing",
+                "rate2": 10,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 10,
+                "power": 1500,
+                "building": "particle accelerator"
+            }
+        ]
+    },
+    {
+        "part": "plutonium fuel rod",
+        "recipes":[
+            {
+                "part": "plutonium fuel rod",
+                "input1": "encased plutonium cell",
+                "rate1": 7.5,
+                "input2": "steel beam",
+                "rate2": 4.5,
+                "input3": "electromagnetic control rod",
+                "rate3": 1.5,
+                "input4": "heat sink",
+                "rate4": 2.5,
+                "output": 0.25,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "plutonium fuel unit",
+                "input1": "encased plutonium cell",
+                "rate1": 10,
+                "input2": "pressure conversion cube",
+                "rate2": 0.5,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 0.5,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "uranium waste",
+        "recipes":[
+            {
+                "part": "plutonium waste",
+                "input1": null,
+                "rate1": null,
+                "input2": null,
+                "rate2": null,
+                "input3": null,
+                "rate3": null,
+                "input4": null,
+                "rate4": null,
+                "output": 0,
+                "power": 0,
+                "building": "nuclear power plant"
+            }
+        ]
+    }
+]

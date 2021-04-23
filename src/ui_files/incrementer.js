@@ -53,9 +53,11 @@ class Incrementer{
         });
     }
     incrementUp(target, val){
+        
         target.value = parseInt(target.value) + val;
     }
     incrementDown(target, val){
+
         target.value = parseInt(target.value) + val;
     }
     // validCheck(target, inputM){

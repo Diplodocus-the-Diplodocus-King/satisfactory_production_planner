@@ -71,7 +71,7 @@
                 "part": "steel rotor",
                 "input1": "steel pipe",
                 "rate1": 10,
-                "input2": "wire",
+                "input2": "copper wire",
                 "rate2": 30,
                 "output": 5,
                 "power": 15,

@@ -135,14 +135,14 @@ class Model {
                                     const demand2Val = parseFloat(demand2.innerText) + (value*recipe.rate2);
                                     const supply2Val = parseFloat(input2Container.querySelector('.supply').innerText);
                                     demand2.innerText = demand2Val;
-                        
+                                    
                                     const demand2Bar = input2Container.querySelector('.bar-value');
                                     const demand2BarVal = parseFloat(demand2Bar.innerText) + (-1*value*recipe.rate2);
                                     demand2Bar.innerText = demand2BarVal;
 
                                     const demand2PositiveBar = input2Container.querySelector('.positive-value');
                                     const demand2NegativeBar = input2Container.querySelector('.negative-value');
-    
+                                    
                                     if(demand2BarVal > 0){
                                         demand2PositiveBar.style.width = `${(demand2BarVal/supply2Val)*100}px`;
                                         demand2NegativeBar.style.width = '0px';
@@ -218,6 +218,35 @@ class Model {
                                         demand4NegativeBar.style.width = '0px';
                                     }
                                 }
+                                if(recipe.power){
+
+                                    const powerContainer = document.querySelector(`#power`);
+                                    const powerDemand = powerContainer.querySelector('.demand');
+                                    const powerDemandVal = parseFloat(powerDemand.innerText) + (value*recipe.power);
+                                    const powerSupplyVal = parseFloat(powerContainer.querySelector('.supply').innerText);
+                                    powerDemand.innerText = powerDemandVal;
+
+                                    const powerDemandBar = powerContainer.querySelector('.bar-value');
+                                    const powerDemandBarVal = parseFloat(powerDemandBar.innerText) + (-1*value*recipe.power);
+                                    powerDemandBar.innerText = powerDemandBarVal;
+
+                                    const powerDemandPositiveBar = powerContainer.querySelector('.positive-value');
+                                    const powerDemandNegativeBar = powerContainer.querySelector('.negative-value');
+    
+                                    if(powerDemandBarVal > 0){
+                                        powerDemandPositiveBar.style.width = `${(powerDemandBarVal/powerSupplyVal)*100}px`;
+                                        powerDemandNegativeBar.style.width = '0px';
+                                    } else if(powerDemandBarVal < 0){
+                                        powerDemandPositiveBar.style.width = '0px';
+                                        powerDemandNegativeBar.style.width = `${-1*(powerDemandBarVal/powerSupplyVal)*100}px`;
+                                        if(parseFloat(powerDemandNegativeBar.style.width.slice(0, -2)) > 100 || powerSupplyVal === 0){
+                                            powerDemandNegativeBar.style.width = '100px';
+                                        }
+                                    } else{
+                                        powerDemandPositiveBar.style.width = '0px';
+                                        powerDemandNegativeBar.style.width = '0px';
+                                    }
+                                } 
                             }
                         })
                     }

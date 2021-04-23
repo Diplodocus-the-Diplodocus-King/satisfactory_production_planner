@@ -50,7 +50,19 @@
                 "rate1": 0.2,
                 "input2": "water",
                 "rate2": 300,
-                "output": 2500
+                "output": 2500,
+                "byProduct": "uranium waste",
+                "output2": 10
+            },
+            {
+                "part": "nuclear power plant (plutonium)",
+                "input1": "plutonium fuel rod",
+                "rate1": 0.1,
+                "input2": "water",
+                "rate2": 300,
+                "output": 2500,
+                "byProduct": "uranium waste",
+                "output2": 1
             }
         ]
     }
