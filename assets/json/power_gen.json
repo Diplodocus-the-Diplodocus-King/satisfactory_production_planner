@@ -1,22 +1,57 @@
 [
     {
-        "building": "biomass burner",
-        "output": 30
-    },
-    {
-        "building": "coal generator",
-        "output": 75
-    },
-    {
-        "building": "fuel generator",
-        "output": 150
-    },
-    {
-        "building": "geo-thermal generator",
-        "output": 200
-    },
-    {
-        "building": "nuclear power plant",
-        "output": 2500
+        "part": "power",
+        "recipes": [
+            {
+                "part": "coal generator (coal)",
+                "input1": "coal",
+                "rate1": 15,
+                "output": 75
+            },
+            {
+                "part": "coal generator (compacted coal)",
+                "input1": "compacted coal",
+                "rate1": 7.143,
+                "output": 75
+            },
+            {
+                "part": "coal generator (petroleum coke)",
+                "input1": "petroleum coke",
+                "rate1": 25,
+                "output": 75
+            },
+            {
+                "part": "fuel generator (fuel)",
+                "input1": "fuel",
+                "rate1": 12,
+                "output": 150
+            },
+            {
+                "part": "fuel generator (turbo fuel)",
+                "input1": "turbo fuel",
+                "rate1":4.5,
+                "output": 150
+            },
+            {
+                "part": "geo-thermal (pure)",
+                "output": 400
+            },
+            {
+                "part": "geo-thermal (normal)",
+                "output": 200
+            },
+            {
+                "part": "geo-thermal (impure)",
+                "output": 100
+            },
+            {
+                "part": "nuclear power plant (uranium)",
+                "input1": "uranium fuel rod",
+                "rate1": 0.2,
+                "input2": "water",
+                "rate2": 300,
+                "output": 2500
+            }
+        ]
     }
 ]

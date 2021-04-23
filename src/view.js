@@ -20,7 +20,7 @@ class View {
             item.recipes.forEach(recipe => {
 
                 const resID = `${item.part.replace(/\s/g, '_')}-${recipe.part.replace(/\s/g, '_')}`;
-
+                // console.log(recipe)
                 const containerHTML = `
                     <div class="incrementer-container" id="${resID}">
                         <label for="quantity" class="incrementer-label">${recipe.part}</label>

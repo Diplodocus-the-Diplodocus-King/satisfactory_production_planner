@@ -38,7 +38,7 @@ class Model {
                     if(dataItem.part === selectedPart){
                         dataItem.recipes.forEach(recipe => {
                             if(recipe.part === selectedRecipe){
-                                
+
                                 // Collect output and print to display as supply
                                 const outputContainer = document.querySelector(`#${part.slice(0, part.indexOf('-'))}`);
                                 const supply = outputContainer.querySelector('.supply');
@@ -129,7 +129,7 @@ class Model {
                                 } 
                                 
                                 if(recipe.input2){
-                                    
+
                                     const input2Container = document.querySelector(`#${recipe.input2.replace(/\s/g,'_')}`);
                                     const demand2 = input2Container.querySelector('.demand');
                                     const demand2Val = parseFloat(demand2.innerText) + (value*recipe.rate2);
