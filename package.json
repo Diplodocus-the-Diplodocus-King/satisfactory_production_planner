@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node_modules/.bin/webpack --mode production",
-    "test": "webpack-dev-server --mode development"
+    "start": "webpack-dev-server --mode development"
   },
   "author": "Diplodocus",
   "license": "ISC",

@@ -450,5 +450,38 @@
                 "building": "assembler"
             }
         ]
+    },
+    {
+        "part": "beacon",
+        "recipes":[
+            {
+                "part": "beacon",
+                "input1": "iron plate",
+                "rate1": 22.5,
+                "input2": "iron rod",
+                "rate2": 7.5,
+                "input3": "copper wire",
+                "rate3": 112.5,
+                "input4": "cable",
+                "rate4": 15,
+                "output": 7.5,
+                "power": 55,
+                "building": "manufacturer"
+            },
+            {
+                "part": "crystal beacon",
+                "input1": "steel beam",
+                "rate1": 2,
+                "input2": "steel pipe",
+                "rate2": 8,
+                "input3": "crystal oscillator",
+                "rate3": 0.5,
+                "input4": null,
+                "rate4": null,
+                "output": 10,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
     }
 ]

@@ -26,7 +26,10 @@ class Incrementer{
         // add event listener to each button
         addButtons.forEach(button => {
             button.addEventListener('click', e => {
-                if(e.shiftKey){
+                if(e.ctrlKey){
+                    this.incrementUp(e.target.parentElement.previousElementSibling, 100);
+                    callback(tier.getAttribute('id'), e.target.parentElement.parentElement.parentElement.getAttribute('id'), 100);
+                } else if(e.shiftKey){
                     this.incrementUp(e.target.parentElement.previousElementSibling, 10);
                     callback(tier.getAttribute('id'), e.target.parentElement.parentElement.parentElement.getAttribute('id'), 10);
                 } else {
@@ -38,7 +41,12 @@ class Incrementer{
 
         minusButtons.forEach(button => {
             button.addEventListener('click', e => {
-                if(e.shiftKey){
+                if(e.ctrlKey){
+                    if(e.target.parentElement.previousElementSibling.value >= 100){
+                        callback(tier.getAttribute('id'), e.target.parentElement.parentElement.parentElement.getAttribute('id'), -100);
+                        this.incrementDown(e.target.parentElement.previousElementSibling, -100);
+                    }
+                } else if(e.shiftKey){
                     if(e.target.parentElement.previousElementSibling.value >= 10){
                         callback(tier.getAttribute('id'), e.target.parentElement.parentElement.parentElement.getAttribute('id'), -10);
                         this.incrementDown(e.target.parentElement.previousElementSibling, -10);
