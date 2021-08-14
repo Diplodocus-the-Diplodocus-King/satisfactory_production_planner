@@ -42,6 +42,7 @@ class Model {
                                 // Collect output and print to display as supply
                                 const outputContainer = document.querySelector(`#${part.slice(0, part.indexOf('-'))}`);
                                 const supply = outputContainer.querySelector('.supply');
+                                // const supplyVal = parseFloat(supply.innerText) + (value*recipe.output);
                                 const supplyVal = parseFloat(supply.innerText) + (value*recipe.output);
                                 supply.innerText = supplyVal;
 

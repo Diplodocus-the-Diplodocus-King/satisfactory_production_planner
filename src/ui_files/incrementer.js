@@ -2,7 +2,8 @@ import '../styles/incrementer.css';
 
 class Incrementer{
     constructor(){
-        this.pattern = /^(\s*|\d+)$/;
+        this.pattern = /^[0-9]*$/ ;
+        this.focusVal = 0;
     }
     init(tier, callback){
         
@@ -14,13 +15,25 @@ class Incrementer{
             // reset value
             input.value = 0;
 
-            input.disabled = true
+            input.disabled = false;
+
+            input.addEventListener('focus', e => {
+                this.focusVal = parseFloat(e.target.value);
+                console.log('setting focus', this.focusVal)
+            })
 
             // add event listener for any input
-            // input.addEventListener('input', e => {
-            //     this.validCheck(e.target, inputM);
-            //     callback(tier.getAttribute('id'), e.target.parentElement.parentElement.getAttribute('id'), e.target.value);
-            // });
+            input.addEventListener('input', e => {
+                console.log('taking input', e.target.value, this.focusVal)
+                if(!this.validCheck(e.target)){
+                    return;
+                }
+
+                const diff = parseFloat(e.target.value) - this.focusVal;
+                console.log('recalc', diff)
+                callback(tier.getAttribute('id'), e.target.parentElement.parentElement.getAttribute('id'), diff);
+                this.focusVal = e.target.value;
+            });
         });
 
         // add event listener to each button
@@ -43,39 +56,38 @@ class Incrementer{
             button.addEventListener('click', e => {
                 if(e.ctrlKey){
                     if(e.target.parentElement.previousElementSibling.value >= 100){
-                        callback(tier.getAttribute('id'), e.target.parentElement.parentElement.parentElement.getAttribute('id'), -100);
                         this.incrementDown(e.target.parentElement.previousElementSibling, -100);
+                        callback(tier.getAttribute('id'), e.target.parentElement.parentElement.parentElement.getAttribute('id'), -100);
                     }
                 } else if(e.shiftKey){
                     if(e.target.parentElement.previousElementSibling.value >= 10){
-                        callback(tier.getAttribute('id'), e.target.parentElement.parentElement.parentElement.getAttribute('id'), -10);
                         this.incrementDown(e.target.parentElement.previousElementSibling, -10);
+                        callback(tier.getAttribute('id'), e.target.parentElement.parentElement.parentElement.getAttribute('id'), -10);
                     } 
                 } else {
                     if(e.target.parentElement.previousElementSibling.value >= 1){
-                        callback(tier.getAttribute('id'), e.target.parentElement.parentElement.parentElement.getAttribute('id'), -1);
                         this.incrementDown(e.target.parentElement.previousElementSibling, -1);
+                        callback(tier.getAttribute('id'), e.target.parentElement.parentElement.parentElement.getAttribute('id'), -1);
                     } 
                 }
             });
         });
     }
     incrementUp(target, val){
-        
-        target.value = parseInt(target.value) + val;
+        target.value = parseFloat(target.value) + val;
     }
     incrementDown(target, val){
-
-        target.value = parseInt(target.value) + val;
+        target.value = parseFloat(target.value) + val;
     }
-    // validCheck(target, inputM){
-    //     if(!this.pattern.test(target.value)){
-    //         target.value = inputM;
-    //     } else {
-    //         inputM = target.value;
-    //         return inputM;
-    //     }
-    // }
+    setValue(target, val){
+        target.value = val;
+    }
+    validCheck(target){
+        if(!Number.isNaN(parseFloat(target.value)) && target.value.length){
+            return true;
+        } 
+        return false;
+    }
 }
 
 export {Incrementer as default};

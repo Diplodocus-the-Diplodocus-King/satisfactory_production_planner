@@ -20,20 +20,19 @@ class View {
             item.recipes.forEach(recipe => {
 
                 const resID = `${item.part.replace(/\s/g, '_')}-${recipe.part.replace(/\s/g, '_')}`;
-                // console.log(recipe)
                 const containerHTML = `
                     <div class="incrementer-container" id="${resID}">
                         <label for="quantity" class="incrementer-label">${recipe.part}</label>
                         <div class="incrementer-value-container">
-                            <input type="text" value="0" class="incrementer-value" name="quantity">
-                            <div class="button-container">
-                                <i class="fas fa-minus-square minus fa-lg"></i>
-                                <i class="fas fa-plus-square plus fa-lg"></i>
-                            </div>
+                            <input type="number" value="0" class="incrementer-value" name="quantity">
                         </div>
                     </div>
                 `;
 
+            //     <div class="button-container">
+            //     <i class="fas fa-minus-square minus fa-lg"></i>
+            //     <i class="fas fa-plus-square plus fa-lg"></i>
+            // </div>
                 html += containerHTML;
             });
             
