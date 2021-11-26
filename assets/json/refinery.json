@@ -86,7 +86,7 @@
                 "part": "coke steel ingot",
                 "input1": "iron ore",
                 "rate1": 75,
-                "input2": "coke",
+                "input2": "petroleum coke",
                 "rate2": 75,
                 "output": 100,
                 "power": 16,

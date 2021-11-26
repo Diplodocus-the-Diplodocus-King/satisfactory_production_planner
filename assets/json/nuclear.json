@@ -28,7 +28,7 @@
                 "rate3": 25,
                 "input4": "quickwire",
                 "rate4": 75,
-                "output": 25,
+                "output": 20,
                 "power": 55,
                 "building": "manufacturer"
             }
