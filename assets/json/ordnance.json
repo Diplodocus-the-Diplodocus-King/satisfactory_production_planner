@@ -13,7 +13,7 @@
                 "building": "assembler"
             },
             {
-                "part": "gun powder",
+                "part": "fine powder",
                 "input1": "compacted coal",
                 "rate1": 3.75,
                 "input2": "sulphur",
