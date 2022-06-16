@@ -1,0 +1,181 @@
+[
+    {
+        "part": "black powder",
+        "recipes":[
+            {
+                "part": "black powder",
+                "input1": "coal",
+                "rate1": 15,
+                "input2": "sulphur",
+                "rate2": 15,
+                "output": 30,
+                "power": 15,
+                "building": "assembler"
+            },
+            {
+                "part": "gun powder",
+                "input1": "compacted coal",
+                "rate1": 3.75,
+                "input2": "sulphur",
+                "rate2": 7.5,
+                "output": 15,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "smokeless powder",
+        "recipes":[
+            {
+                "part": "smokeless powder",
+                "input1": "black powder",
+                "rate1": 20,
+                "input2": "heavy oil residue",
+                "rate2": 10,
+                "output": 20,
+                "power": 30,
+                "building": "refinery"
+            }
+        ]
+    },
+    {
+        "part": "iron rebar",
+        "recipes":[
+            {
+                "part": "iron rebar",
+                "input1": "iron rod",
+                "rate1": 15,
+                "input2": null,
+                "rate2": null,
+                "output": 15,
+                "power": 4,
+                "building": "constructor"
+            }
+        ]
+    },
+    {
+        "part": "stun rebar",
+        "recipes":[
+            {
+                "part": "stun rebar",
+                "input1": "iron rebar",
+                "rate1": 10,
+                "input2": "quickwire",
+                "rate2": 50,
+                "output": 10,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "shatter rebar",
+        "recipes":[
+            {
+                "part": "shatter rebar",
+                "input1": "iron rebar",
+                "rate1": 10,
+                "input2": "quartz crystal",
+                "rate2": 15,
+                "output": 5,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "explosive rebar",
+        "recipes":[
+            {
+                "part": "explosive rebar",
+                "input1": "iron rebar",
+                "rate1": 10,
+                "input2": "smokeless powder",
+                "rate2": 10,
+                "input3": "steel pipe",
+                "rate3": 10,
+                "output": 5,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },   
+    {
+        "part": "nobelisk",
+        "recipes":[
+            {
+                "part": "nobelisk",
+                "input1": "black powder",
+                "rate1": 20,
+                "input2": "steel pipe",
+                "rate2": 20,
+                "output": 10,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "pulse nobelisk",
+        "recipes":[
+            {
+                "part": "pulse nobelisk",
+                "input1": "nobelisk",
+                "rate1": 5,
+                "input2": "crystal oscillator",
+                "rate2": 1,
+                "output": 5,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "rifle ammo",
+        "recipes":[
+            {
+                "part": "rifle ammo",
+                "input1": "smokeless powder",
+                "rate1": 10,
+                "input2": "copper sheet",
+                "rate2": 15,
+                "output": 75,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "fabric",
+        "recipes":[
+            {
+                "part": "fabric",
+                "input1": "polymer resin",
+                "rate1": 80,
+                "input2": "water",
+                "rate2": 50,
+                "output": 75,
+                "power": 30,
+                "building": "refinery"
+            }
+        ]
+    },
+    {
+        "part": "gas filter",
+        "recipes":[
+            {
+                "part": "gas filter",
+                "input1": "coal",
+                "rate1": 37.5,
+                "input2": "rubber",
+                "rate2": 15,
+                "input3": "fabric",
+                "rate3": 15,
+                "output": 7.5,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    }   
+]

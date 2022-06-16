@@ -190,31 +190,6 @@
         ]
     },
     {
-        "part": "black powder",
-        "recipes":[
-            {
-                "part": "black powder",
-                "input1": "coal",
-                "rate1": 7.5,
-                "input2": "sulphur",
-                "rate2": 15,
-                "output": 7.5,
-                "power": 15,
-                "building": "assembler"
-            },
-            {
-                "part": "gun powder",
-                "input1": "compacted coal",
-                "rate1": 3.75,
-                "input2": "sulphur",
-                "rate2": 7.5,
-                "output": 15,
-                "power": 15,
-                "building": "assembler"
-            }
-        ]
-    },
-    {
         "part": "compacted coal",
         "recipes":[
             {
