@@ -132,6 +132,55 @@
         ]
     },
     {
+        "part": "gas nobelisk",
+        "recipes":[
+            {
+                "part": "gas nobelisk",
+                "input1": "nobelisk",
+                "rate1": 5,
+                "input2": "biomass",
+                "rate2": 50,
+                "output": 5,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "cluster nobelisk",
+        "recipes":[
+            {
+                "part": "cluster nobelisk",
+                "input1": "nobelisk",
+                "rate1": 7.5,
+                "input2": "smokeless powder",
+                "rate2": 10,
+                "output": 2.5,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "nuke nobelisk",
+        "recipes":[
+            {
+                "part": "nuke nobelisk",
+                "input1": "nobelisk",
+                "rate1": 2.5,
+                "input2": "smokeless powder",
+                "rate2": 5,
+                "input3": "encased uranium cell",
+                "rate3": 10,
+                "input4": "ai limiter",
+                "rate4": 3,
+                "output": 0.5,
+                "power": 55,
+                "building": "manufacturer"
+            }
+        ]
+    },
+    {
         "part": "rifle ammo",
         "recipes":[
             {
@@ -143,6 +192,38 @@
                 "output": 75,
                 "power": 15,
                 "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "homing rifle ammo",
+        "recipes":[
+            {
+                "part": "homing rifle ammo",
+                "input1": "rifle ammo",
+                "rate1": 50,
+                "input2": "high speed connector",
+                "rate2": 2.5,
+                "output": 25,
+                "power": 15,
+                "building": "assembler"
+            }
+        ]
+    },
+    {
+        "part": "turbo rifle ammo",
+        "recipes":[
+            {
+                "part": "turbo rifle ammo",
+                "input1": "rifle ammo",
+                "rate1": 125,
+                "input2": "aluminium casing",
+                "rate2": 15,
+                "input3": "turbofuel",
+                "rate3": 15,
+                "output": 250,
+                "power": 55,
+                "building": "manufacturer"
             }
         ]
     },
